@@ -9,6 +9,7 @@ import {
   FaPhone,
   FaYoutube,
 } from "react-icons/fa";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -49,23 +50,30 @@ const Footer = () => {
             Freelance Full-Stack Developer
           </p>
           <div className="social">
-          <FaYoutube
+            <NavLink to="https://www.youtube.com/channel/UC_sndH7eiQFJcikNSQ0QMHA">
+              <FaYoutube
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            </NavLink>
+            <NavLink to="https://www.instagram.com/anushujansatkunarasa/">
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </NavLink>
+            <NavLink to="https://www.linkedin.com/in/anushujansatkunarasa/">
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </NavLink>
+            <NavLink to="https://github.com/anushujan">
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </NavLink>
           </div>
         </div>
       </div>
