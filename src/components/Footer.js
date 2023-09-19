@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -51,29 +52,25 @@ const Footer = () => {
           </p>
           <div className="social">
             <NavLink to="https://www.youtube.com/channel/UC_sndH7eiQFJcikNSQ0QMHA">
-              <FaYoutube
+          <FaYoutube
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
-              />
-            </NavLink>
-            <NavLink to="https://www.instagram.com/anushujansatkunarasa/">
-              <FaInstagram
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-            </NavLink>
+              /></NavLink>
+              <NavLink to="https://www.instagram.com/anushujansatkunarasa/">
+            <FaInstagram
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            /></NavLink>
             <NavLink to="https://www.linkedin.com/in/anushujansatkunarasa/">
-              <FaLinkedin
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-            </NavLink>
+            <FaLinkedin
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            /></NavLink>
             <NavLink to="https://github.com/anushujan">
-              <FaGithub
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-            </NavLink>
+            <FaGithub
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            /></NavLink>
           </div>
         </div>
       </div>
