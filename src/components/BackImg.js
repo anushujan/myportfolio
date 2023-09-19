@@ -11,7 +11,7 @@ const BackImg = () => {
       </div>
       <div className="content">
         <p>Hi, I'M ANUSHUJAN</p>
-        <h1>Full-Stack Developer</h1>
+        <h1>Front-End Developer</h1>
         <div>
           <Link to="/project" className="btn">
             Projects
