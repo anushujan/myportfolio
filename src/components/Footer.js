@@ -9,7 +9,7 @@ import {
   FaPhone,
   FaYoutube,
 } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 
 
 const Footer = () => {
