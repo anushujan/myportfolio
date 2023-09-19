@@ -11,7 +11,7 @@ const Project = () => {
       <Navbar/>
       <BackImg2 heading="PROJECTS" text="Some of my most recent works"/>
       <Work/>
-      <PricingCard/>
+      <PricingCar/>
       <Footer/>
     </div>
   )
