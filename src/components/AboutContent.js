@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./AboutContentStyles.css";
 import React1 from "../assets/react1.webp"
 import React2 from "../assets/reacr2.jpeg"
-import React3 from "../assets/react3.webp"
 
 import React from "react";
 
